@@ -12,6 +12,10 @@
     src: url(fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header part */
 .normal_text{
     height: 100vh;
