@@ -1,0 +1,46 @@
+*{
+    background-color: #222;
+    color: white;
+    font-family: "SF Pro Display";
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+/* header part */
+.normal_text{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+
+#header_text{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-btn{
+    border: white 2px solid;
+    border-radius: 25px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.new{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
