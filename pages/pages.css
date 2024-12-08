@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+*{
+    background-color: #222;
+    color: white;
+}
+
+
+
+.main{
+    font-family: 'SF Pro Display';
+}
