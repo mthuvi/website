@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+*{
+    background-color: #222;
+    color: white;
+    font-family: 'SF Pro Display';
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.normal_text{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#header_text{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.sources{
+    padding-inline: 10%;
+}
+
+.inner_sources{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.inner_sources p{
+    font-weight: bolder;
+}
+
+.inner_sources li{
+    margin-left: 20px;
+}
+.chapter_title{
+    position: relative;
+    left: -5%;
+    font-size: larger;
+    top: 2.5%;
+}
